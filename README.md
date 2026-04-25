@@ -81,11 +81,11 @@ En esta sección se presentan las clases creadas dentro del proyecto y el análi
 
 ### **Código del ejemplo**
 
-![alt text](<assets/CConstante(java).png>)
+![alt text](assets/complejidadConstante.png)
 
 ### Salida del ejemplo
 
-![alt text](assets/ComplejidadConstante.png)
+![alt text](assets/complejidadConstantePrint.png)
 
 ### **Explicación resumida**
 
@@ -97,11 +97,11 @@ La complejidad es $O(1)$ (Constante) porque el número de operaciones es fijo y 
 
 ### **Código del ejemplo**
 
-![alt text](<assets/ComplejidadLineal(java).png>)
+![alt text](assets/complejidadLineal.png)
 
 ### Salida del ejemplo
 
-![alt text](assets/ComplejidadLineal.png)
+![alt text](assets/complejidadLinealPrint.png)
 
 ### **Explicación resumida**
 
@@ -113,11 +113,11 @@ La complejidad es $O(n)$ (Lineal) porque existe un bucle que itera exactamente $
 
 ### **Código del ejemplo**
 
-![alt text](<assets/ComplejidadCuadratica(java).png>)
+![alt text](assets/complejidadCuadratica.png)
 
 ### Salida del ejemplo
 
-![alt text](assets/ComplejidadCuadratica.png)
+![alt text](assets/complejidadCuadraticaPrint.png)
 
 ### **Explicación resumida**
 
@@ -129,11 +129,11 @@ La complejidad es $O(n^2)$ (Cuadrática) debido a la presencia de dos bucles ani
 
 ### **Código del ejemplo**
 
-![alt text](<assets/ComplejidadLogaritmica(java).png>)
+![alt text](assets/complejidadLogaritmica.png)
 
 ### Salida del ejemplo
 
-![alt text](assets/ComplejidadLogaritmica.png)
+![alt text](assets/complejidadLogaritmicaPrint.png)
 
 ### **Explicación resumida**
 
@@ -145,11 +145,11 @@ La complejidad es $O(\log n)$ (Logarítmica). En lugar de recorrer todos los ele
 
 ### **Código del ejemplo**
 
-![alt text](<assets/ComplejidadNLogN(java).png>)
+![alt text](assets/complejidadNlogN.png)
 
 ### Salida del ejemplo
 
-![alt text](assets/ComplejidadNLogN.png)
+![alt text](assets/complejidadNlogNPrint.png)
 
 ### **Explicación resumida**
 
