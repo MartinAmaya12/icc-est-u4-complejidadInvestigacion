@@ -159,7 +159,7 @@ La complejidad es $O(n \log n)$. Se produce al combinar un bucle logarítmico (e
 
 
 **Martin Amaya**:
-Y como comcluiusion, adicional a lo qie se investigo y averiguo sobre este tema, nos hizo destacar fue al implementar las clases fue visaulizar la potencia de la complejidad
+Y como conclusion, adicional a lo qie se investigo y averiguo sobre este tema, nos hizo destacar fue al implementar las clases fue visaulizar la potencia de la complejidad
 Logaritmica  ($O(\log n)$)5. Resulta sorprendente ver como una pequena modificacion en la estructura del bucle. Esto permite al algoritmo evitar pasos y procesar datos masivos en una
 cantidad de tiempo mmucho mas inferior a la de un enfoque lineal.
 Por otra parte, se aprendio de la parte teorica que la programacion eficiente va mas alla de que un simple codigo compile sin errores. Se comprendio la importancia de realizar un analisis
