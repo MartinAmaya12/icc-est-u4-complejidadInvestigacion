@@ -28,46 +28,34 @@ El objetivo general de este proyecto es comprender y aplicar los conceptos de co
 
 ## **1. Teoría de Complejidad**
 
-### 1.1 La teoría de la complejidad
+### 1.1 Definición de Algoritmo y Eficiencia
+Un algoritmo es una secuencia finita y ordenada de pasos lógicos que permiten resolver un problema específico. Se considera que un algoritmo es **eficiente** cuando no solo resuelve el problema de forma correcta, sino que lo hace optimizando el uso de recursos del sistema, principalmente minimizando el tiempo de uso del CPU y el consumo de memoria RAM.
 
-La teoría de la complejidad es una rama de la informática que se ocupa de estudiar la eficiencia de los algoritmos y la complejidad de los problemas computacionales. 
-
-### 1.2 Importancia de la Complejidad
-
-La complejidad es un concepto fundamental en la informática, ya que permite evaluar la eficiencia de los algoritmos y la eficiencia de los problemas computacionales. 
+### 1.2 La teoría de la complejidad
+Es la rama de la informática que estudia la eficiencia de los algoritmos y la dificultad intrínseca de los problemas computacionales, permitiendo clasificar los algoritmos según su consumo de recursos.
 
 ### 1.3 Eficiencia de algoritmos
 La eficiencia se evalúa mediante dos dimensiones principales:
-
-1. **Coste temporal:**
-
-Se refiere al tiempo de ejecución del algoritmo, medido generalmente en número de operaciones elementales en lugar de segundos exactos
-
-2. **Coste espacial:**
-
-Se refiere a la cantidad de memoria (espacio de almacenamiento) que el algoritmo necesita durante su ejecución[cite: 13, 18].
+1. **Coste temporal:** Se refiere al tiempo que tarda un algoritmo en ejecutarse, medido generalmente en número de operaciones elementales ejecutadas.
+2. **Coste espacial:** Se refiere a la cantidad de memoria de almacenamiento (RAM) que el algoritmo requiere durante su ejecución.
 
 ### 1.4 Factores de tiempo de ejecución
-El tiempo real que tarda un algoritmo depende de diversos factores:
+El rendimiento real de un programa depende de varios factores:
+* **Factores propios:** Relacionados directamente con el diseño del algoritmo y las estructuras de datos elegidas.
+* **Factores circunstanciales:** Dependen del entorno externo, como la potencia del hardware, el compilador utilizado y la carga actual del sistema operativo.
+* **Análisis teórico:** Evaluación matemática "a priori" que determina el comportamiento del algoritmo de forma independiente al hardware.
+* **Análisis experimental:** Medición "a posteriori" realizando pruebas reales de tiempo con diferentes tamaños de entrada.
 
-**Factores propios:** Relacionados con el diseño del algoritmo y las estructuras de datos utilizadas
+### 1.5 Notación de Complejidad (Notación Asintótica)
+Se utiliza para describir el crecimiento del tiempo de ejecución cuando el tamaño de la entrada ($n$) tiende al infinito:
+* **Big O ($O$):** Representa el **peor caso** o la cota superior. Es el tiempo máximo que el algoritmo tardará.
+* **Omega ($\Omega$):** Representa el **mejor caso** o la cota inferior. Es el tiempo mínimo que el algoritmo requiere.
+* **Theta ($\Theta$):** Representa el **caso promedio** o una cota ajustada, donde el límite superior e inferior coinciden.
 
-**Factores circunstanciales:** Dependen del entorno de ejecución, como el hardware, el compilador, el sistema operativo y la carga del sistema
-
-**Análisis teórico:** Evaluación matemática "a priori" del algoritmo usando notación asintótica, independiente del hardware
-
-**Análisis experimental:** Medición "a posteriori" del tiempo de ejecución real con diferentes entradas de datos
-
-### 1.5 Notacion de complejidad
-
-Se utiliza para describir el comportamiento del algoritmo cuando la entrada tiende a infinito:
-
-**Notación Big O ($O$):** Representa la cota superior o el peor escenario de ejecución.
-* **Mejor caso:** Escenario donde el algoritmo realiza el mínimo de pasos.
-* **Peor caso:** Escenario donde el algoritmo realiza el máximo de pasos (el que representa Big O).
-* **Caso promedio:** El comportamiento esperado con una entrada típica.
-* **Big O ($O$), Omega ($\Omega$), Theta ($\Theta$):** Describen cotas superiores, inferiores y ajustadas respectivamente.
-
+### 1.6 Ejemplo de Analogía
+Para entender la eficiencia, imaginemos buscar un nombre en una guía telefónica:
+* Un enfoque **Lineal ($O(n)$)** sería leer página por página desde el inicio hasta encontrar el nombre.
+* Un enfoque **Logarítmico ($O(\log n)$)** sería abrir la guía por la mitad, descartar la mitad donde no está el nombre por orden alfabético, y repetir el proceso. Este segundo método es drásticamente más eficiente para grandes volúmenes de datos.
 
 ## **2. Ejemplos de Complejidad en Java**
 
