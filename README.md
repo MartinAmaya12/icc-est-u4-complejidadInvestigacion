@@ -12,6 +12,8 @@
 # Integrantes:
 - Renato Martín Amaya Siguenza - https://github.com/MartinAmaya12
 - Gabriel Andrés Cuenca Orellana - https://github.com/gabriellcuenk
+- Jorge Luis Padilla Mendez -
+https://github.com/JorgeLuisPadilla
 
 
 # Objetivo General
