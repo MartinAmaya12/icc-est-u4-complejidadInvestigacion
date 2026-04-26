@@ -11,7 +11,7 @@
 
 # Integrantes:
 - Renato Martín Amaya Siguenza - https://github.com/MartinAmaya12
-- 
+- Gabriel Andrés Cuenca Orellana - https://github.com/gabriellcuenk
 
 
 # Objetivo General
@@ -155,3 +155,6 @@ utilizando la notacion Big O.Se permite predecir si el software sera escalable y
 Por ultimo, se avisto que la complejidad cuadratica ($O(n^2)$), se podria decir que es la menos eficiente de las anteriormente revisadas. Esto se debe a que tiene un ciclo dentro de otro.
 Esto provoca que el trabajo se multiplique drasticamente. Si se duplica la cantidad de datos, el tiempo de espera incrementa exponencialmente. Esto da a entender que no es una solucion viable
 para el manejo de grandes volumenes de informacion.
+
+**Gabriel Cuenca**:
+Con este proyecto pude entender en la práctica que no todos los algoritmos se comportan igual cuando los datos crecen. Lo que más me sorprendió fue darme cuenta de que dos ciclos anidados no siempre significan O(n2), como lo demostró la complejidad logaritmica, donde un simple i *= 2 cambia completamente el comportamiento del algoritmo. Ese detalle me enseñó que no basta con que el programa funcione sino que hay que entender cómo está escrito y por qué. Me llevo la idea de que elegir bien el algoritmo desde el principio marca una diferencia real.

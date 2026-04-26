@@ -1,5 +1,10 @@
 package complejidades;
 
+/*
+ * Complejidad NLogN - O(n log n)
+ * Combina un ciclo logarítmico (i *= 2) con uno lineal (j < n).
+ */
+
 public class ComplejidadNLogN {
     public void ejemplo() {
         System.out.println("------Complejidad NLogN------");
