@@ -14,6 +14,7 @@
 - Gabriel Andrés Cuenca Orellana - https://github.com/gabriellcuenk
 - Jorge Luis Padilla Mendez -
 https://github.com/JorgeLuisPadilla
+- Sebastián Andrés Arenillas Ponce - https://github.com/Sebastian3332
 
 
 # Objetivo General
@@ -160,3 +161,6 @@ para el manejo de grandes volumenes de informacion.
 
 **Gabriel Cuenca**:
 Con este proyecto pude entender en la práctica que no todos los algoritmos se comportan igual cuando los datos crecen. Lo que más me sorprendió fue darme cuenta de que dos ciclos anidados no siempre significan O(n2), como lo demostró la complejidad logaritmica, donde un simple i *= 2 cambia completamente el comportamiento del algoritmo. Ese detalle me enseñó que no basta con que el programa funcione sino que hay que entender cómo está escrito y por qué. Me llevo la idea de que elegir bien el algoritmo desde el principio marca una diferencia real.
+
+**Sebastian Arenillas**:
+En este proyecto entendí que la complejidad de los algoritmos es clave para evaluar qué tan eficiente es un programa, especialmente cuando se trabaja con grandes cantidades de datos. Aprendí que pequeñas diferencias en la forma de implementar un algoritmo pueden generar grandes cambios en el rendimiento, por lo que no basta con que el código funcione, sino que también debe ser optimizado. Esto me ayudó a tomar mayor conciencia sobre la importancia de elegir buenas soluciones desde el inicio para evitar problemas de rendimiento en el futuro.
