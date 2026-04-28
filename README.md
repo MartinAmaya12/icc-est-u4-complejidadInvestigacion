@@ -170,6 +170,5 @@ Este proyecto nos permitió comprender que la complejidad de los algoritmos es f
 El análisis mediante la notación Big O es clave para predecir la escabilidad del software, se resaltó la eficiencia de la complejidad logarítmica frente a la lineal y, especialmente, frente a la cuadrática, la cual resulta poco viable para grandes cantidades de información debido a su alto costo en tiempo de ejecución.
 
 **Jorge Luis Padilla**
-
 Como conclusión de este proyecto, puedo decir que comprender la complejidad de los algoritmos cambia totalmente la forma en la que se analiza un programa. Antes se podría pensar que mientras el código funcione correctamente es suficiente, pero ahora queda claro que el rendimiento es igual de importante, especialmente cuando se trabaja con grandes volúmenes de datos.
 Uno de los aspectos más relevantes fue observar cómo pequeñas variaciones en la estructura de un algoritmo, como cambiar la forma de un bucle, pueden reducir significativamente el tiempo de ejecución. Esto demuestra que elegir una buena estrategia desde el inicio no solo optimiza recursos, sino que también evita problemas futuros de escalabilidad.
