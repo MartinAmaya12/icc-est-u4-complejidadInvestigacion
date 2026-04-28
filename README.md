@@ -14,6 +14,7 @@
 - Gabriel Andrés Cuenca Orellana - https://github.com/gabriellcuenk
 - Jorge Luis Padilla Mendez - https://github.com/JorgeLuisPadilla
 - Sebastián Andrés Arenillas Ponce - https://github.com/Sebastian3332
+- Eythan Fernando Solano Sánchez - https://github.com/E-Solano07
 
 
 # Objetivo General
@@ -163,3 +164,7 @@ Con este proyecto pude entender en la práctica que no todos los algoritmos se c
 
 **Sebastian Arenillas**:
 En este proyecto entendí que la complejidad de los algoritmos es clave para evaluar qué tan eficiente es un programa, especialmente cuando se trabaja con grandes cantidades de datos. Aprendí que pequeñas diferencias en la forma de implementar un algoritmo pueden generar grandes cambios en el rendimiento, por lo que no basta con que el código funcione, sino que también debe ser optimizado. Esto me ayudó a tomar mayor conciencia sobre la importancia de elegir buenas soluciones desde el inicio para evitar problemas de rendimiento en el futuro.
+
+**Eythan Solano**
+Este proyecto nos permitió comprender que la complejidad de los algoritmos es fundamental para evaluar la eficiencia de un programa, está claro que no basta con que el código funcione, sino que debe estar optimizado, ya que pequeñas diferencias en su implementación pueden generar grandes cambios en el rendimiento.
+El análisis mediante la notación Big O es clave para predecir la escabilidad del software, se resaltó la eficiencia de la complejidad logarítmica frente a la lineal y, especialmente, frente a la cuadrática, la cual resulta poco viable para grandes cantidades de información debido a su alto costo en tiempo de ejecución.
